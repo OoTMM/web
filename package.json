@@ -1,0 +1,44 @@
+{
+  "name": "@ootmm/web",
+  "version": "0.0.1",
+  "description": "The public OoTMM website",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OoTMM/web.git"
+  },
+  "author": "Maxime Bacoux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OoTMM/web/issues"
+  },
+  "homepage": "https://github.com/OoTMM/web#readme",
+  "dependencies": {
+    "core-js": "^3.26.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.2",
+    "cssnano": "^5.1.14",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.0",
+    "postcss": "^8.4.19",
+    "postcss-import": "^15.0.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.3",
+    "reset-css": "^5.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
