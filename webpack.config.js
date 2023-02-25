@@ -57,7 +57,16 @@ module.exports = {
       Buffer: ['buffer', 'Buffer']
     }),
     new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: './app/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'gen/stable.html',
+      template: './app/pages/gen/stable.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'gen/dev.html',
+      template: './app/pages/gen/dev.html'
     }),
   ]
 };

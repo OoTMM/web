@@ -12,6 +12,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-size: 1.6rem;
 }
 
