@@ -17,6 +17,12 @@ body {
   font-size: 1.6rem;
 }
 
+#__next {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .disclaimer {
   width: 500px;
   text-align: justify;
