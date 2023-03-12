@@ -19,6 +19,9 @@ export default function RawLayout({ children }: RawLayoutProps) {
           <Image className="logo" alt="OoTMM Logo" src={logo}/>
           <h1 className="title">OoTMM</h1>
         </Link>
+        <nav className="header-nav">
+          <Link href="/faq">FAQ</Link>
+        </nav>
       </header>
       {children}
     </>
