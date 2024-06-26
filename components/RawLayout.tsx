@@ -21,6 +21,7 @@ export default function RawLayout({ children }: RawLayoutProps) {
         </Link>
         <nav className="header-nav">
           <Link href="/faq">FAQ</Link>
+          <Link target="_blank" href="https://discord.gg/4QdtPBP6wf">Discord</Link>
           <Link href="/multiworld">Multiworld Guide</Link>
         </nav>
       </header>
